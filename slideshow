@@ -1,0 +1,128 @@
+   <!--Slide Show-->
+    <div class=" mx-auto items-center justify-center relative flex-col  bg-darbB">
+
+
+        <div class="CSSgal relative mx-auto items-center h-[500px]
+         max-w-[1080px] flex flex-col bg-white shadow-md shadow-gray-700">
+
+            <!-- Don't wrap targets in parent -->
+            <s id="s1"></s> 
+            <s id="s2"></s>
+            <s id="s3"></s>
+            <s id="s4"></s>
+            <s id="s5"></s>
+            <s id="s6"></s>
+            <s id="s7"></s>
+            <s id="s8"></s>
+            <s id="s9"></s>
+          
+            <div class="slider">
+                
+
+                <div> 
+                    <div class="w-[55%] h-full ">
+                        <img src="./images/dis.jpeg" alt=""
+                        class="relative w-full h-full">
+                    </div>
+                    <span class="font-philo text-black font-bold absolute top-[20px] text-[40px] pl-[50px] ">Digital Infrasructure Solution</span>        
+                </div>
+
+
+                <div>
+                    <div class=" w-[55%] h-full   ">
+                        <img src="./images/cctv-camera.jpg" alt=""
+                        class="relative w-full h-full">
+                    </div>
+                    <span class="font-philo text-black absolute font-bold top-[20px] text-[40px] pl-[150px] ">CCTV Surveillance</span>
+                </div>
+
+                <div>
+                    <div class=" w-[55%] h-full    ">
+                        <img src="./images/firealram.png" alt=""
+                        class="relative w-full h-full">
+                    </div>
+                    <span class="font-philo text-black absolute top-[20px] text-[40px] font-bold pl-[150px] ">Fire Alarm System</span>
+                </div>
+
+                <div>
+                    <div class=" w-[55%] h-full   ">
+                        <img src="./images/unifedcommuniacaton.jpeg" alt=""
+                        class="relative w-full h-full">
+                    </div>   
+                    <span class="font-philo text-black absolute font-bold top-[20px] text-[40px] pl-[150px]">Unified Communication System</span>
+                </div>
+
+                <div>
+                    <div class=" w-[55%] h-full  ">
+                        <img src="./images/Security-Screening-Market-1024x576.jpg" alt=""
+                        class="relative w-full h-full">
+                    </div>
+                    <span class="font-philo text-black absolute font-bold top-[20px] text-[40px] pl-[200px] ">Security Systems</span>
+                </div>
+                     
+
+                <div>
+                    <div class=" w-[55%] h-full  ">
+                        <img src="./images/accesscontrol.webp" alt=""
+                        class="relative w-full h-full">
+                    </div>
+                    <span class="font-philo text-black absolute top-[20px] font-bold text-[40px] pl-[150px] ">Access Control Systems</span>
+                </div>
+
+                <div>
+                    <div class="  w-[55%] h-full">
+                        <img src="./images/HD-conference-room-acoustics-microphone-gooseneck-1080x675.jpg" alt=""
+                        class="relative w-full h-full">
+                    </div>
+                    <span class="font-philo text-black absolute top-[10px] text-[50px] pl-[150px]">Audio Visual Pro A/V Systems</span>
+                </div>
+
+                <div>
+                    <div class=" w-[55%] h-full ">
+                        <img src="./images/Home-Automation.jpg" alt=""
+                        class="relative w-full h-full">
+                    </div>
+                    <span class="font-philo text-black absolute top-[10px] text-[50px] pl-[150px]">Smart Home-Automation</span>
+                </div>
+
+                <div>
+                    <div class=" w-[55%] h-full">
+                        <img src="./images/Digital-Signage-Solutions-India.webp" alt=""
+                        class="relative w-full h-full">
+                    </div>
+                    <span class="font-philo text-black absolute top-[10px] text-[50px] pl-[150px] ">Digital Signage Solutions</span>
+                </div>
+            </div>
+
+            
+            
+                <div class="prevNext">
+                    <div><a href="#s9"></a><a href="#s2"></a></div>
+                    <div><a href="#s1"></a><a href="#s3"></a></div>
+                    <div><a href="#s2"></a><a href="#s4"></a></div>
+                    <div><a href="#s3"></a><a href="#s5"></a></div>
+                    <div><a href="#s4"></a><a href="#s6"></a></div>
+                    <div><a href="#s5"></a><a href="#s7"></a></div>
+                    <div><a href="#s6"></a><a href="#s8"></a></div>
+                    <div><a href="#s7"></a><a href="#s9"></a></div>
+                    <div><a href="#s8"></a><a href="#s1"></a></div>
+                </div>
+          
+                <div class="bullets  text-black">
+                    <a href="#s1">1</a>
+                    <a href="#s2">2</a>
+                    <a href="#s3">3</a>
+                    <a href="#s4">4</a>
+                    <a href="#s5">5</a>
+                    <a href="#s6">6</a>
+                    <a href="#s7">7</a>
+                    <a href="#s8">8</a>
+                    <a href="#s9">9</a>
+                </div>
+
+            
+          
+            </div>
+        
+    </div>
+    

@@ -1,0 +1,19 @@
+ <!--Glance-->
+    <div class="bg-slate-50 h-1000px font-philo">
+
+        <div class="bg bg1 relative">
+            <h2 class="desc text-[150px]">Our Vision</h2>
+        </div>
+            <p class="text font-philo font-bold">
+                To become National Level System Integrator & Solution Provider with the most Reliable, Respected & Preferred name in field of Security- Voice-Data-Video.
+            </p>
+
+         <div class="bg bg2">
+            
+            <h2 class="desc">Our Mission</h2>
+        </div>
+            <p class="text text-[150px] font-philo font-bold">
+                Digital Transformation for Enterprise with value for money, user friendly and customized solution. Create a safe, convenient and smart life for everyone.
+            </p>
+
+    </div>

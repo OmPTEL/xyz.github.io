@@ -1,0 +1,628 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.btn-1 {
+    text-align: center;
+    display: inline-block;
+    padding: 15px 0;
+    cursor: pointer;
+    letter-spacing: 1px;
+    position:relative;
+    overflow:hidden;
+    /* margin: 0 20px; */
+  }
+  
+  .btn-1:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    background : white;
+    left: 45%;
+    height: 2px;
+    bottom: 0;
+    transition: all .1s;
+    opacity:10;
+}
+  
+  .btn-1:hover:before {
+    width: 100%;
+    left:0;
+  }
+
+  .btn-2 {
+    text-align: center;
+    display: inline-block;
+    padding: 15px 0;
+    cursor: pointer;
+    letter-spacing: 1px;
+    position:relative;
+    overflow:hidden;
+    /* margin: 0 20px; */
+  }
+  
+  .btn-2:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    background : white;
+    left: 45%;
+    height: 2px;
+    bottom: 0;
+    transition: all .2s;
+    opacity: 10;
+}
+  
+  .btn-2:hover:before {
+    width: 100%;
+    left:0;
+  }
+
+  .btn-3 {
+    text-align: center;
+    display: inline-block;
+    padding: 15px 0;
+    cursor: pointer;
+    letter-spacing: 1px;
+    position:relative;
+    overflow:hidden;
+    /* margin: 0 20px; */
+  }
+  
+  .btn-3:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    background : white;
+    left: 45%;
+    height: 2px;
+    bottom: 0;
+    transition: all .2s;
+    opacity: 10;
+}
+  
+  .btn-3:hover:before {
+    width: 100%;
+    left:0;
+  }
+
+
+  .btn-4 {
+    text-align: center;
+    display: inline-block;
+    padding: 15px 0;
+    cursor: pointer;
+    letter-spacing: 1px;
+    position:relative;
+    overflow:hidden;
+    /* margin: 0 20px; */
+  }
+  
+  .btn-4:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    background : white;
+    left: 45%;
+    height: 2px;
+    bottom: 0;
+    transition: all .2s;
+    opacity: 10;
+}
+  
+  .btn-4:hover:before {
+    width: 100%;
+    left:0;
+  }
+
+
+h1 {
+
+  max-width: 40ch;
+  text-align: center;
+  transform: scale(0.94);
+  animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+}
+@keyframes scale {
+  100% {
+    transform: scale(1);
+  }
+}
+
+span {
+  display: inline-block;
+  opacity: 0;
+  filter: blur(4px);
+}
+
+span:nth-child(1) {
+  animation: fade-in 1.1s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(2) {
+  animation: fade-in 1.1s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(3) {
+  animation: fade-in 1.1s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(4) {
+  animation: fade-in 1.1s 0.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(5) {
+  animation: fade-in 1.1s 0.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(6) {
+  animation: fade-in 1.1s 0.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(7) {
+  animation: fade-in 1.1s 0.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(8) {
+  animation: fade-in 1.1s 0.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(9) {
+  animation: fade-in 1.1s 0.9s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(10) {
+  animation: fade-in 1.1s 1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(11) {
+  animation: fade-in 1.1s 1.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+@keyframes fade-in {
+  100% {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+
+.bnman{
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+}
+
+
+.bg1{
+  background-image: url(./images/vison.jpg);
+}
+
+.bg2{
+  background-image: url(./images/mission.jpg);
+}
+
+.text{
+  font-size: 1.7rem;
+  padding: 0 10rem;
+  margin: 5rem 0;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.bg{
+  position: relative;
+  width: 100%;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+
+.desc{
+  position: absolute;
+  padding: 0.5rem 2.5rem;
+  top: 50%;
+  left: 50%;
+  transform:translateX(-50%) translateY(-50%);
+  color: aliceblue;
+  text-shadow:0 0 10px  black;
+  font-size: 6.0rem;
+}
+
+
+h1{
+  font-size: 150px;
+  color: aliceblue;
+  position: absolute;
+  text-shadow:0 0 10px  black;
+  top: 5rem;
+}
+
+section{
+  background-color: rgb(62, 62, 62);
+  color: aliceblue;
+  padding:5rem 0;
+}
+
+
+
+
+.svginfo {
+  font-family: 'Russo One', sans-serif;
+  position: absolute; 
+  width: 100%; height: 40%;
+}
+.svginfo text {
+  text-transform: uppercase;
+  animation: stroke 5s infinite alternate;
+  stroke-width: 2;
+  stroke: #365fa0;
+  font-size: 140px;
+}
+@keyframes stroke {
+  0%   {
+    fill: rgba(72,138,20,0); stroke: rgb(255, 255, 255);
+    stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 2;
+  }
+  70%  {fill: rgba(72,138,20,0); stroke: rgb(255, 255, 255); }
+  80%  {fill: rgba(72,138,20,0); stroke: rgb(255, 255, 255); stroke-width: 3; }
+  100% {
+    fill: rgb(255, 255, 255); stroke: rgba(54,95,160,0); 
+    stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
+  }
+}
+
+
+
+.CSSgal {
+	position: relative;
+	overflow: hidden;
+ /* Or set a fixed height */
+}
+
+/* SLIDER */
+
+.CSSgal .slider {
+	height: 100%;
+	white-space: nowrap;
+	font-size: 0;
+	transition: 0.8s;
+}
+
+/* SLIDES */
+
+.CSSgal .slider > * {
+	font-size: 1rem;
+	display: inline-block;
+	white-space: normal;
+	/* vertical-align:top; */
+	height: 100%;
+	width: 100%;
+	background: none  no-repeat;
+	background-size: cover;
+}
+
+/* PREV/NEXT, CONTAINERS & ANCHORS */
+
+.CSSgal .prevNext {
+	position: absolute;
+	z-index: 1;
+	top: 50%;
+	width: 100%;
+	height: 0;
+}
+
+.CSSgal .prevNext > div+div {
+	visibility: hidden; /* Hide all but first P/N container */
+}
+
+.CSSgal .prevNext a {
+	background: darkblue;
+	position: absolute;
+	width:       60px;
+	height:      60px;
+	line-height: 60px; /* If you want to place numbers */
+	text-align: center;
+	opacity: 0.7;
+	-webkit-transition: 0.3s;
+					transition: 0.3s;
+	-webkit-transform: translateY(-50%);
+					transform: translateY(-50%);
+	left: 0;
+}
+.CSSgal .prevNext a:hover {
+	opacity: 1;
+}
+.CSSgal .prevNext a+a {
+	left: auto;
+	right: 0;
+}
+
+/* NAVIGATION */
+
+.CSSgal .bullets {
+	position: absolute;
+	z-index: 2;
+	bottom: 0;
+	padding: 10px 0;
+	width: 100%;
+	text-align: center;
+}
+.CSSgal .bullets > a {
+	display: inline-block;
+	width:       30px;
+	height:      30px;
+	line-height: 30px;
+	text-decoration: none;
+	text-align: center;
+	background: rgb(255, 255, 255);
+	-webkit-transition: 0.3s;
+	transition: 0.3s;
+}
+.CSSgal .bullets > a+a {
+	background: rgba(255, 255, 255, 0.5); 
+}
+.CSSgal .bullets > a:hover {
+	background: rgba(255, 255, 255, 0.7) !important;
+}
+
+/* NAVIGATION BUTTONS */
+/* ALL: */
+.CSSgal >s:target ~ .bullets >* {      background: rgba(255, 255, 255, 0.5);}
+/* ACTIVE */
+#s1:target ~ .bullets >*:nth-child(1) {background: rgba(255, 255, 255,   1);}
+#s2:target ~ .bullets >*:nth-child(2) {background: rgba(255, 255, 255,   1);}
+#s3:target ~ .bullets >*:nth-child(3) {background: rgba(255, 255, 255,   1);}
+#s4:target ~ .bullets >*:nth-child(4) {background: rgba(255, 255, 255,   1);}
+#s5:target ~ .bullets >*:nth-child(5) {background: rgba(255, 255, 255,   1);}
+#s6:target ~ .bullets >*:nth-child(6) {background: rgba(255, 255, 255,   1);}
+#s7:target ~ .bullets >*:nth-child(7) {background: rgba(255, 255, 255,   1);}
+#s8:target ~ .bullets >*:nth-child(8) {background: rgba(255, 255, 255,   1);}
+#s9:target ~ .bullets >*:nth-child(9) {background: rgba(255, 255, 255,   1);}
+/* More slides? Add here more rules */
+
+/* PREV/NEXT CONTAINERS VISIBILITY */
+/* ALL: */
+.CSSgal >s:target ~ .prevNext >* {      visibility: hidden;}
+/* ACTIVE: */
+#s1:target ~ .prevNext >*:nth-child(1) {visibility: visible;}
+#s2:target ~ .prevNext >*:nth-child(2) {visibility: visible;}
+#s3:target ~ .prevNext >*:nth-child(3) {visibility: visible;}
+#s4:target ~ .prevNext >*:nth-child(4) {visibility: visible;}
+#s5:target ~ .prevNext >*:nth-child(5) {visibility: visible;}
+#s6:target ~ .prevNext >*:nth-child(6) {visibility: visible;}
+#s7:target ~ .prevNext >*:nth-child(7) {visibility: visible;}
+#s8:target ~ .prevNext >*:nth-child(8) {visibility: visible;}
+#s9:target ~ .prevNext >*:nth-child(9) {visibility: visible;}
+/* More slides? Add here more rules */
+
+/* SLIDER ANIMATION POSITIONS */
+
+#s1:target ~ .slider {transform: translateX(   0%); -webkit-transform: translateX(   0%);}
+#s2:target ~ .slider {transform: translateX(-100%); -webkit-transform: translateX(-100%);}
+#s3:target ~ .slider {transform: translateX(-200%); -webkit-transform: translateX(-200%);}
+#s4:target ~ .slider {transform: translateX(-300%); -webkit-transform: translateX(-300%);}
+#s5:target ~ .slider {transform: translateX(-400%); -webkit-transform: translateX(-400%);}
+#s6:target ~ .slider {transform: translateX(-500%); -webkit-transform: translateX(-500%);}
+#s7:target ~ .slider {transform: translateX(-600%); -webkit-transform: translateX(-600%);}
+#s8:target ~ .slider {transform: translateX(-700%); -webkit-transform: translateX(-700%);}
+#s9:target ~ .slider {transform: translateX(-800%); -webkit-transform: translateX(-800%);}
+/* More slides? Add here more rules */
+
+
+/* YOU'RE THE DESIGNER! 
+   ____________________
+   All above was mainly to get it working :)
+   CSSgal CUSTOM STYLES / OVERRIDES HERE: */
+
+.CSSgal{
+	color: #fff;	
+	text-align: center;
+}
+.CSSgal .slider h2 {
+	margin-top: 100vh;
+	font-weight: 200;
+	letter-spacing: -0.06em;
+	word-spacing: 0.2em;
+	font-size: 3em;
+}
+.CSSgal a {
+	border-radius: 50%;
+	margin: 0 3px;
+	color: rgba(0,0,0,0.8);
+	text-decoration: none;
+}
+
+.imgs {
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
+
+
+.text{
+	margin-left: 50%;
+	transform: translateX(-100%);
+	opacity: 0;
+	animation: slide-in-anim 3s ease-out forwards;
+	animation-iteration-count:1;
+}
+
+@keyframes slide-in-anim {
+	20% {
+		opacity: 0;
+	}
+	60% {
+		transform: translateX(-45%);
+	}
+	75% {
+		transform: translateX(-52%);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(-50%);
+	}
+}
+
+@keyframes FadeInOut {
+  0% {opacity:1;}
+  25% {opacity:.75;}
+  50% {opacity:.5;}
+  100% {opacity:0;}
+}
+
+#fading img {
+  position:absolute;
+  left:0;
+  }
+
+#fading img.top {
+  -webkit-animation-name: FadeInOut;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 10s;
+  -webkit-animation-direction: alternate;
+  }
+
+/* .wrapper{
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background-color: #fff;
+  display: grid;
+  place-items: center;
+  transition: opacity 0.25s visibility 2s;
+}
+
+.fade{
+  opacity: 0;
+  visibility: hidden;
+} */
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.wrapper .button{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  float: left;
+  margin: 0 5px;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  /* box-shadow: rgba(0,0,0,0.8); */
+  transition: all 1.0s ease-out;
+}
+.wrapper .button:hover{
+  width: 200px;
+}
+.wrapper .button .icon{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  border-radius: 50px;
+  box-sizing: border-box;
+  line-height: 60px;
+  transition: all 1.0s ease-out;
+}
+.wrapper .button:nth-child(1):hover .icon{
+  background: #4267B2;
+}
+.wrapper .button:nth-child(2):hover .icon{
+  background: #198f1f;
+}
+.wrapper .button:nth-child(3):hover .icon{
+  background: #E1306C;
+}
+.wrapper .button:nth-child(4):hover .icon{
+  background: #bb2f2f;
+}
+
+.wrapper .button .icon i{
+  font-size: 25px;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:hover .icon i{
+  color: #fff;
+}
+.wrapper .button span{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 60px;
+  margin-left: 10px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:nth-child(1) span{
+  color: #4267B2;
+}
+.wrapper .button:nth-child(2) span{
+  color: #198f1f;
+}
+.wrapper .button:nth-child(3) span{
+  color: #E1306C;
+}
+.wrapper .button:nth-child(4) span{
+  color: #333;
+}
+.wrapper .button:nth-child(5) span{
+  color: #ff0000;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+.foot .aboutus h3{
+  transition: 0.5s;
+  transform-origin: left;
+  transform: scaleX(1);
+  position: relative;
+  display: inline-block;
+}
+
+.foot .aboutus h3::before{
+  content: '';
+  transform-origin: right;
+  transition: 0.5s;
+  position: absolute;
+}

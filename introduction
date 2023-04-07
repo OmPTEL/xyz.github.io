@@ -1,0 +1,84 @@
+<!--Introduction-->
+    <div class="bg-white h-[600px] container">
+
+        <div class="max-w-[1080px] flex flex-row mx-auto items-center justify-center">
+        <!--Left Part-->
+        
+            <div class="relative flex flex-col justify-start font-mullish">
+
+                <div class="flex flex-row relative flex-wrap items-center justify-center w-fit font-bold">
+                    <hr class=" bg-black transform: rotate-90 w-[80px] mt-5 justify-start items-start">
+                    <h3 class="text-darbB font-mullish relative text-2xl mt-[30px]">
+                    About Us<br>
+                    <span class="text-4xl">Who We Are?</span>
+                    </h3>
+                </div>
+                
+
+                <p class="font-mullish text-[20px]">BEACON is a leading ELV system integrator and Solution Provider in field Of Surveillance, 
+                    Security, Communication & in Networking System Since 1996, With 25 years of hard earned 
+                    experience, and building a trust of More than 8000+ Satisfied customer, we offer solutions.
+                </p>
+
+
+                <ul class="flex flex-row flex-wrap text-black gap-x-11 gap-y-3 ">
+                    <li class="font-mullish text-black  flex flex-row">
+                        <i data-feather="check" class="text-greenLight "></i>
+                        <span>Smart Industrial Solution</span>
+                    </li>
+
+                    <li class="font-mullish text-black  flex flex-row">
+                        <i data-feather="check" class="text-greenLight "></i>
+                        <span>Smart Healthcare Solution</span>
+                    </li>
+
+                    <li class="font-mullish text-black  flex flex-row">
+                        <i data-feather="check" class="text-greenLight "></i>
+                        <span>Smart Education Solution</span>
+                    </li>
+
+                    <li class="font-mullish text-black  flex flex-row">
+                        <i data-feather="check" class="text-greenLight "></i>
+                        <span>Smart Retail Solution</span>
+                    </li>
+
+                    <li class="font-mullish text-black  flex flex-row">
+                        <i data-feather="check" class="text-greenLight "></i>
+                        <span>Smart Hospitality Solution</span>
+                    </li>
+
+                    <li class="font-mullish text-black  flex flex-row">
+                        <i data-feather="check" class="text-greenLight "></i>
+                        <span>Smart Buildings Solution</span>
+                    </li>
+
+                    <li class="font-mullish text-black  flex flex-row">
+                        <i data-feather="check" class="text-greenLight "></i>
+                        <span>Smart City Surveillance Solution</span>
+                    </li>
+
+                    <li class="font-mullish text-black  flex flex-row">
+                        <i data-feather="check" class="text-greenLight "></i>
+                        <span>Smart Transportation Solution</span>
+                    </li>
+
+                    <li class="font-mullish text-black  flex flex-row">
+                        <i data-feather="check" class="text-greenLight "></i>
+                        <span>Smart Banking Solution</span>
+                    </li>
+
+                    <li class="font-mullish text-black  flex flex-row">
+                        <i data-feather="check" class="text-greenLight "></i>
+                        <span>Smart Entertainment Solution</span>
+                    </li>
+
+                    <li class="font-mullish text-black  flex flex-row">
+                        <i data-feather="check" class="text-greenLight "></i>
+                        <span>Smart Critical Infrastructure Solution</span>
+                    </li>
+                </ul>
+                <p></p>
+                <p></p>
+            </div>
+        </div>
+    </div>
