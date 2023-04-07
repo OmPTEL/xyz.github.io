@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beacon Network | Commited To Excellence</title>
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="icon" type="image/x-icon" href="images/faviconbn.png" />
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+    <style>
+      .companiesList {
+        animation: 15s infinite linear moveCompany;
+      }
+
+      @keyframes moveCompany {
+        0% {
+          top: 0;
+        }
+        100% {
+          top: -50%;
+        }
+      }
+    </style>
+
+    <style>
+      .mySlides {
+        display: none;
+      }
+      img {
+        vertical-align: middle;
+      }
+
+      /* Slideshow container */
+      .slideshow-container {
+        max-width: 1080px;
+        position: relative;
+        margin: auto;
+        height: 600px;
+      }
+
+      /* The dots/bullets/indicators */
+      .dot {
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+      }
+
+      .active {
+        background-color: #717171;
+      }
+
+      /* Fading animation */
+      .fade {
+        animation-name: fade;
+        animation-duration: 3s;
+      }
+
+      @keyframes fade {
+        from {
+          opacity: 0.3;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+
+      /* On smaller screens, decrease text size */
+      @media only screen and (max-width: 300px) {
+        .text {
+          font-size: 11px;
+        }
+      }
+    </style>
+  </head>
+
+  <body class="overflow-x-hidden">
+    <!-- <script src="./main.js"></script> -->
+    <div class="wrapper">
+        <div class="loader"></div>
+      <!--Nav bar-->
+      <div class="bg-darbB relative">
+        <nav
+          class="relative mx-auto flex flex-row h-[70px] w-[1080px] justify-between items-center p-3 leading-5"
+        >
+          <img
+            src="./images/bnicon.png"
+            alt=""
+            class="flex h-[154%] rounded-md"
+          />
+
+          <ul class="flex space-x-9 font-mullish cursor-pointer">
+            <li
+              class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group hidden lg:block"
+            >
+              <a href="#home" class="btn"><div class="btn-1 relative" id="homenav">Home</div></a>
+            </li>
+
+            <li
+              class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group hidden lg:block"
+            >
+              <a href="#about_us" class="btn"><div class="btn-3 relative" >About Us</div></a>
+            </li>
+
+            <li
+              class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group hidden lg:block"
+            >
+              <a href="#products" class="btn"><div class="btn-3 relative" id="productsnav">Products</div></a>
+            </li>
+
+            <li
+              class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group hidden lg:block"
+            >
+              <a href="#contact" class="btn"><div class="btn-4 relative">Contact Us</div></a>
+            </li>
+          </ul>
+
+          <img src="./images/india-flag.svg" alt="" />
+        </nav>
+      </div>
+
+      <!--Hero Section-->
+      <div
+        class="bg-darbB container h-[800px] herobg mx-auto items-center justify-center relative" id="home"
+      >
+        <div
+          class="relative max-w-[1080px] flex flex-row mx-auto pt-20 flex-wrap"
+        >
+          <img
+            src="./images/electric.png.png"
+            alt=""
+            loading="lazy"
+            class="absolute h-[450px] w-[300px] flex -ml-[250px] -mt-[190px] opacity-[0.09]"
+          />
+
+          <div class="flex flex-row max-w-[1080px] ml-20 font-philo">
+            <div class="flex-col flex text-white">
+              <div class="text-[100px] max-w-md">25</div>
+              <div class="text-[30px] -mt-4 pl-2">YEARS</div>
+            </div>
+
+            <div class="flex flex-col w-[40px] h-[30px] mt-4 relative">
+              <img
+                src="./images/favpng_add-icon-plus-icon.png"
+                alt=""
+                class="h-[100px] w-[100px] relative"
+              />
+              <hr
+                class="rotate-90 bg-slate-500 w-[120px] absolute inline-block mt-[100px] -ml-10"
+              />
+            </div>
+
+            <div
+              class="text-5xl font-raleway text-gray-400 -ml-[150px] pt-[40px]"
+            >
+              <link
+                href="https://fonts.googleapis.com/css?family=Russo+One"
+                rel="stylesheet"
+              />
+
+              <svg viewBox="0 0 1320 300" class="svginfo">
+                <text x="50%" y="50%" dy=".35em" text-anchor="middle" class="font-fraunces ">
+                  OF INNOVATION
+                </text>
+              </svg>
+            </div>
+
+            <div
+              class="relative flex flex-col text-gray-300 font-rubika mt-[200px] ml-[50px] space-y-2"
+            >
+              <img
+                src="./images/pngwing.com.png"
+                alt=""
+                class="h-[80px] w-[60px] -ml-12"
+              />
+
+              <span class="text-2xl font-italics font-bold quote"
+                >Committed To Excellence</span
+              >
+
+              <img
+                src="./images/pngwing.com.png"
+                alt=""
+                class="h-[80px] w-[60px] transform: rotate-180 ml-[300px]"
+              />
+            </div>
+          </div>
+          <img
+            src="./images/bnman-removebg-preview.png"
+            alt=""
+            loading="lazy"
+            class="h-[400px] absolute -bottom-[200px] -right-[10rem] z-10"
+          />
+          <img
+            src="./images/image.png"
+            alt=""
+            class="absolute -bottom-[200px] -left-[240px] opacity-[0.013] w-[1000px] -mb-2 h-[350px] z-10"
+          />
+        </div>
+        <img
+          src="./images/hero-shape-Recovered copy (1).jpg"
+          class="absolute bottom-0"
+        />
+      </div>
+
+      <!--About us-->
+      <div class="bg-white h-[1300px] container relative flex foot" id="about_us">
+        <div
+          class="max-w-[1080px] flex flex-row mx-auto items-center justify-center relative"
+        >
+          <div
+            class="relative flex flex-col justify-start font-raleway space-y-10"
+          >
+            <div 
+              class="flex flex-row relative flex-wrap items-center justify-center w-fit font-bold mt-10 -ml-4 aboutus"
+              data-aos="fade-left"
+              data-aos-duration="1500"
+              data-aos-once="false"
+            >
+              <hr
+                class="bg-black transform: rotate-90 w-[80px] mt-5 justify-start items-start -ml-6"
+              />
+              <h3 class="text-darbB font-mullish relative text-2xl mt-[30px]">
+                <span>About Us</span><br />
+                <span class="text-5xl">Who We Are?</span>
+              </h3>
+            </div>
+
+            <p
+              class="font-fraunces text-[20px] leading-6 font-medium space-x-5"
+            >
+              BEACON is a leading ELV system integrator and Solution Provider in
+              field Of Surveillance, Security, Communication & in Networking
+              System Since 1996, With 25 years of hard earned experience, and
+              building a trust of More than 8000+ Satisfied customer, we
+              offer solutions.
+            </p>
+
+            <ul
+              class="flex flex-row flex-wrap text-black gap-x-16 gap-y-3 font-mullish font-bold cursor-pointer"
+            >
+              <li class="font-mullish text-black flex flex-row"  data-aos="fade-left"
+              data-aos-duration="1500"
+              data-aos-once="false">
+                <i data-feather="check" class="text-greenLight"></i>
+                <span >Smart Industrial Solution</span>
+              </li>
+
+              <li class="font-mullish text-black flex flex-row ml-[2.0rem]"  data-aos="fade-right"
+              data-aos-duration="1500"
+              data-aos-once="false">
+                <i data-feather="check" class="text-greenLight"></i>
+                <span>Smart Healthcare Solution</span>
+              </li>
+
+              <li class="font-mullish text-black flex flex-row"  data-aos="fade-left"
+              data-aos-duration="1500"
+              data-aos-once="false">
+                <i data-feather="check" class="text-greenLight"></i>
+                <span>Smart Education Solution</span>
+              </li>
+
+              <li class="font-mullish text-black flex flex-row"  data-aos="fade-right"
+              data-aos-duration="1500"
+              data-aos-once="false">
+                <i data-feather="check" class="text-greenLight"></i>
+                <span>Smart Retail Solution</span>
+              </li>
+
+              <li class="font-mullish text-black flex flex-row"  data-aos="fade-left"
+              data-aos-duration="1500"
+              data-aos-once="false">
+                <i data-feather="check" class="text-greenLight"></i>
+                <span>Smart Hospitality Solution</span>
+              </li>
+
+              <li class="font-mullish text-black flex flex-row ml-[20px]"  data-aos="fade-right"
+              data-aos-duration="1500"
+              data-aos-once="false">
+                <i data-feather="check" class="text-greenLight"></i>
+                <span>Smart Buildings Solution</span>
+              </li>
+
+              <li class="font-mullish text-black flex flex-row ml-[0.5rem]"  data-aos="fade-left"
+              data-aos-duration="1500"
+              data-aos-once="false">
+                <i data-feather="check" class="text-greenLight"></i>
+                <span>Smart City Surveillance Solution</span>
+              </li>
+
+              <li class="font-mullish text-black flex flex-row"  data-aos="fade-right"
+              data-aos-duration="1500"
+              data-aos-once="false">
+                <i data-feather="check" class="text-greenLight"></i>
+                <span>Smart Transportation Solution</span>
+              </li>
+
+              <li class="font-mullish text-black flex flex-row -ml-[0.5rem]"  data-aos="fade-left"
+              data-aos-duration="1500"
+              data-aos-once="false">
+                <i data-feather="check" class="text-greenLight"></i>
+                <span>Smart Banking Solution</span>
+              </li>
+
+              <li class="font-mullish text-black flex flex-row ml-5"  data-aos="fade-right"
+              data-aos-duration="1500"
+              data-aos-once="false">
+                <i data-feather="check" class="text-greenLight"></i>
+                <span>Smart Entertainment Solution</span>
+              </li>
+
+              <li class="font-mullish text-black flex flex-row"  data-aos="fade-left"
+              data-aos-duration="1500"
+              data-aos-once="false">
+                <i data-feather="check" class="text-greenLight"></i>
+                <span>Smart Critical Infrastructure Solution</span>
+              </li>
+            </ul>
+
+            <p
+              class="font-fraunces leading-6 text-[20px] font-medium space-x-5"
+            >
+              BEACON delivers exclusive & innovative products and services to a
+              mixture of different segments, serving all types of enterprises,
+              we now have the technological capability to offer total solution
+              to its customers with design, supply, installation and
+              commissioning of systems coupled with service and maintenance. The
+              excellence of the products, strong technical support from the
+              manufacturer and dedicated work force has led the company to
+              glowing heights without sacrificing the quality of service.
+            </p>
+
+            <p
+              class="font-fraunces leading-6 text-[20px] space-x-5 font-[520]"
+            >
+              BEACON remains committed to customer satisfaction. We understand
+              that quality products and reliable service and support are the
+              exact ingredients for success in a competitive security market.
+              With this in mind, we at BEACON strive to conduct our business
+              with integrity as we continue to deliver the quality of product
+              and support that has been our recipe for success. We believe that
+              knowledge and skills are fundamentals to achieving success in the
+              global marketplace. We strive to assist our customers; we listen
+              to them, identify their needs, offer suggestions based on our
+              experience and act to create values.
+            </p>
+
+            <div class="mx-auto flex font-italics font-bold text-[25px]" data-aos="fade"
+            data-aos-duration="3000"
+            data-aos-once="false">
+              We are happy to offer our services from concept to completion of
+              your project
+            </div>
+
+            <img src="./images/services.png" alt="" />
+
+            <!--Roles-->
+            <div class="flex flex-row container space-x-6 relative">
+              <img src="./images/design.png" alt="" class="h-[150px]"   data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-once="false">
+
+              <img src="./images/supply.png" alt="" class="h-[150px]"  data-aos="fade-down"
+              data-aos-duration="1000"
+              data-aos-once="false"/>
+
+              <img src="./images/install.png" alt="" class="h-[150px]" data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-once="false" />
+
+              <img src="./images/maintenance.png" alt="" class="h-[150px]" data-aos="fade-down"
+              data-aos-duration="1000"
+              data-aos-once="false" />
+
+              <img src="./images/integration.png" alt="" class="h-[150px]"  data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-once="false"/>
+
+              <img src="./images/commision.png" alt="" class="h-[150px]"  data-aos="fade-down"
+              data-aos-duration="1000"
+              data-aos-once="false"/>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slideshow container -->
+      <div class="relative bg-darbB w-full h-[1000px] mx-auto items-center justify-center pt-[200px]" id="products">
+
+        <div class="flex flex-row  flex-wrap items-center justify-center w-fit font-bold ml-[169px] -mt-[100px]" data-aos="slide-right"
+        data-aos-duration="1500"
+        data-aos-once="false">
+
+          <hr class="text-gray-500 transform: rotate-90 w-[80px] mt-5 justify-start items-start pl-[100px]"/>
+
+          <h3 class="text-gray-300 font-mullish  text-2xl -ml-[20px] "  >
+            <span class="text-5xl">Our Products</span>
+          </h3>
+        </div>
+
+
+        <div
+          class="slideshow-container relative overflow-y-hidden rounded-xl pt-[100px]"
+          id="productsnav"
+          data-aos="zoom-in-up"
+              data-aos-duration="1500"
+              data-aos-once="false"
+        >
+          <!-- Full-width images with number and caption text -->
+          <div class="mySlides fade" id="fading">
+            <img
+              src="./images/dis.jpeg"
+              style="width: 100%"
+              class="object-cover"
+            />
+            <div>
+              <h2
+              class="font-italics font-bold text-blue-50 text-[50px] absolute bottom-5 left-2" >
+              Digital Infrastructure Solutions
+            </h2>
+            </div>
+           
+          </div>
+
+          <div class="mySlides fade" id="fading">
+            <img
+              src="./images/accesscontrol.webp"
+              style="width: 100%"
+              class="object-cover"
+            />
+            <h2
+              class="font-italics font-bold text-blue-50 text-[50px] absolute bottom-5 left-2"
+            >
+              Access Control System
+            </h2>
+          </div>
+
+          <div class="mySlides fade" id="fading">
+            <img
+              src="./images/Digital-Signage-Solutions-India.webp"
+              style="width: 100%"
+              class="object-cover"
+            />
+            <h2
+              class="font-italics font-bold text-blue-50 text-[50px] absolute bottom-10 left-2"
+            >
+              Digital Signage Solutions
+            </h2>
+          </div>
+
+          <div class="mySlides fade" id="fading">
+            <img
+              src="images/cctv-camera.jpg"
+              style="width: 100%"
+              class="object-cover"
+            />
+            <h2
+              class="font-italics font-bold text-blue-50 text-[50px] absolute bottom-5 left-2"
+            >
+              CCTV Surveillance
+            </h2>
+          </div>
+
+          <div class="mySlides fade" id="fading">
+            <img
+              src="./images/firealram.png"
+              style="width: 100%"
+              class="object-cover"
+            />
+            <h2
+              class="font-italics font-bold text-blue-50 text-[50px] absolute bottom-9 left-2"
+            >
+              Fire Alarm System
+            </h2>
+          </div>
+
+          <div class="mySlides fade" id="fading">
+            <img
+              src="./images/HD-conference-room-acoustics-microphone-gooseneck-1080x675.jpg"
+              style="width: 100%"
+              class="object-cover"
+            />
+            <h2
+              class="font-italics font-bold text-blue-50 text-[50px] absolute bottom-5 left-2"
+            >
+              Pro A / V Solutions
+            </h2>
+          </div>
+
+          <div class="mySlides fade" id="fading">
+            <img
+              src="./images/Security-Screening-Market-1024x576.jpg"
+              style="width: 100%"
+              class="object-cover"
+            />
+            <h2
+              class="font-italics font-bold text-blue-50 text-[50px] absolute bottom-5 left-2"
+            >
+              Security Systems
+            </h2>
+          </div>
+
+          <div class="mySlides fade" id="fading">
+            <img
+              src="./images/unifedcommuniacaton.jpeg"
+              style="width: 100%"
+              class="object-cover"
+            />
+            <h2
+              class="font-italics font-bold text-blue-50 text-[50px] absolute bottom-10 left-2"
+            >
+              Unifed Communiacaton System
+            </h2>
+          </div>
+
+          <div class="mySlides fade" id="fading">
+            <img
+              src="./images/Home-Automation.jpg"
+              style="width: 100%"
+              class="object-cover"
+            />
+            <h2
+              class="font-italics font-bold text-blue-50 text-[50px] absolute bottom-5 left-2"
+            >
+              Smart Home Automation
+            </h2>
+          </div>
+
+        </div>
+
+        <br />
+
+        <!-- The dots/circles -->
+        <div style="text-align: center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+          <span class="dot" onclick="currentSlide(5)"></span>
+          <span class="dot" onclick="currentSlide(6)"></span>
+          <span class="dot" onclick="currentSlide(7)"></span>
+          <span class="dot" onclick="currentSlide(8)"></span>
+          <span class="dot" onclick="currentSlide(9)"></span>
+        </div>
+
+       
+      </div>
+
+      <!--Why Us-->
+      <div class="relative w-full mx-auto items-center justify-center">
+        <!-- <img src="./images/sideribbion.png"> -->
+        <img   class="absolute w-[500px] h-[500px] opacity-5 top-[300px] -left-[200px]"
+          src="./images/—Pngtree—dot black splashing ink watercolor_3798248.png"
+          
+        />
+
+        <div
+          class="flex flex-row relative flex-wrap items-center justify-center w-fit font-bold mt-[100px] ml-[210px]" 
+          data-aos="zoom-out-up"
+        data-aos-duration="1500"
+        data-aos-once="false"
+        >
+          <hr
+            class="bg-black transform: rotate-90 w-[80px] mt-5 justify-start items-start -ml-6"
+          />
+          <h3 class="text-darbB font-mullish relative text-2xl mt-[30px]">
+            <span class="text-5xl">Why Us?</span>
+          </h3>
+        </div>
+
+        <div
+          class="relative max-w-[1080px] mx-auto items-center justify-center -mt-[50px]"
+        >
+          <img
+            src="./images/bnicon-removebg-preview.png"
+            class="ml-[430px] mt-[100px]"
+            data-aos="flip-up"
+        data-aos-duration="1500"
+        data-aos-once="true"
+          />
+
+          <!-- <span class="ml-[470px] mt-[70px] font-philo font-bold text-[40px]">Beacon</span> -->
+        <div class="w-100% mx-auto items-center justify-center font-italics">
+          <p class="relative font-rubika text-[20px] mt-[50px]">
+            Provides best and the most advanced technology CCTV Surveillance
+            across the market and also present's a Comprehensive range Of
+            Surveillance, Communication, Networking and Security Solutions
+            thoroughly engineered for today's progressive organizations built on
+            robust architectures and advanced technologies these workhorses
+            offer
+          </p>
+        </div>
+         
+
+          <div
+            class="relative flex-col flex mx-auto items-center justify-center text-darbB font-italics text-[20px] mt-[100px] hover:cursor-pointer"
+          >
+            <hr class="rotate-180 w-[250px] border-gray-400" />
+            <h4 class="m-2" data-aos="slide-right"
+            data-aos-duration="1000"
+            data-aos-delay="0"
+            data-aos-once="false">More Productivity</h4>
+            <hr class="rotate-180 w-[250px] border-gray-400" />
+            <h4 class="m-2" data-aos="slide-left"
+            data-aos-duration="1000"
+            data-aos-delay="0"
+            data-aos-once="false">More Cost Saving</h4>
+            <hr class="rotate-180 w-[250px] border-gray-400" />
+            <h4 class="m-2" data-aos="slide-right"
+            data-aos-delay="0"
+            data-aos-duration="1000"
+            data-aos-once="false">More Flexibility</h4>
+            <hr class="rotate-180 w-[250px] border-gray-400" />
+            <h4 class="m-2" data-aos="slide-left"
+            data-aos-delay="0"
+            data-aos-duration="1000"
+            data-aos-once="false">More Reliability</h4>
+            <hr class="rotate-180 w-[250px] border-gray-400" />
+            <h4 class="m-2" data-aos="slide-right"
+            data-aos-duration="1000"
+            data-aos-delay="0"
+            data-aos-once="false">More Performance</h4>
+            <hr class="rotate-180 w-[250px] border-gray-400" />
+          </div>
+
+          <img
+            src="./images/box-removebg-preview.png"
+            class="absolute -mt-[400px] -right-[150px]"
+            data-aos="zoom-out-left"
+            data-aos-duration="2000"
+            data-aos-delay="10"
+            data-aos-once="false"
+          />
+        </div>
+
+    
+      </div>
+
+      <!--Contact Us-->
+      <div class="relative w-full mx-auto items-center justify-center" id="contact">
+        <img
+          src="./images/feature-section-2BG.jpg"
+          class="relative pt-[200px]"
+        />
+
+
+        <div class="absolute top-[350px] left-[150px] text-white">
+          <h2 class="font-bold text-3xl text-gray-400"   >Head Office:</h2><br>
+          <p>224, Sanjay Complex, Rajputpara Main Road<br> Rajkot-360001</p><br>
+          <p>Phone:  0281-2220533 / 2222566 <br>Cell:  98250 74470 / 98790 07896</p>
+          <!-- <p>What's App No: 99253 32327</p><br> -->
+          <p>E-mail : <span class="font-bold">contact@beaconnetwork.in</span></p>
+        </div>
+
+        <div class="absolute top-[650px] left-[150px] text-white">
+          <h2 class="font-bold text-3xl text-gray-400" >Branches / Service Points:</h2><br>
+          <span class="text-lg hover:cursor-pointer">
+            Rajkot  &nbsp;| &nbsp; Ahemdabad &nbsp; | &nbsp; Jamnagar &nbsp; | &nbsp; Gandhidham  &nbsp;| &nbsp; Junagadh &nbsp; | &nbsp; Morbi &nbsp;| &nbsp; Veraval &nbsp; |  Amreli
+          </span>
+        </div>
+
+
+        <div>
+          <img src="./images/qr.png" class="absolute  top-[400px] right-[110px]">
+        </div>
+        
+
+          <!-- icons tab -->
+          <div class="wrapper absolute right-0 -mt-[355px] mr-[100px] h-[100px]"> 
+            <div class="button" data-aos="zoom-in-up"
+            data-aos-duration="1000"
+            data-aos-once="false">
+               <div class="icon">
+                  <a href=""><i class="fab fa-facebook-f"></i></a>
+               </div>
+               <span>Facebook</span>
+            </div>
+            <div class="button" data-aos="zoom-in-down"
+            data-aos-duration="1000"
+            data-aos-once="false">
+               <div class="icon">
+                <a ><i class="fab fa-whatsapp"></i></a>
+               </div>
+               <span>99253 32327</span>
+            </div>
+           
+            <div class="button" data-aos="zoom-in-up"
+            data-aos-duration="1000"
+            data-aos-once="false">
+               <div class="icon">
+                <a href="https://www.instagram.com/beacon__network" target="_blank"><i class="fab fa-instagram"></i></a>
+               </div>
+               <span>Instagram</span>
+            </div>
+            <div class="button" data-aos="zoom-in-down"
+            data-aos-duration="1000"
+            data-aos-once="false">
+              <div class="icon">
+               <a href="mailto:contact@beaconnetwork.in" target="_blank"><i class="fab fa-google"></i></a>
+              </div>
+              <span>G-Mail</span>
+           </div>
+         </div>
+      </div>
+    </div>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <script>
+      feather.replace();
+    </script>
+
+    <script>
+      let slideIndex = 0;
+      showSlides();
+
+      function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {
+          slideIndex = 1;
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+        setTimeout(showSlides, 2000); // Change image every 4 seconds
+      }
+    </script>
+  </body>
+</html>
